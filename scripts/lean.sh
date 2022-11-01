@@ -153,3 +153,5 @@ wget -P target/linux/rockchip/armv8/base-files/usr/bin/ https://github.com/frien
 
 # Test kernel 5.15
 sed -i 's/5.4/6.0/g' ./target/linux/rockchip/Makefile
+rm -rf target/linux/rockchip/image/armv8.mk
+cp -f $GITHUB_WORKSPACE/armv8.mk target/linux/rockchip/image/armv8.mk
