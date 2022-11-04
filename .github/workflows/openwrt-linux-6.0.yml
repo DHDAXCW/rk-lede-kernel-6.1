@@ -149,8 +149,8 @@ jobs:
         kernelv=`cat openwrt-rockchip-armv8.manifest | grep 'kernel - ' |  awk -F '[- ]' '{print $4}'`
         echo "::set-output name=kernel_version::$kernelv"
         popd
-        rm -rf bin/targets/rockchip/armv8/openwrt-rockchip-armv8-*.manifest
-        rm -rf bin/targets/rockchip/armv8/openwrt-rockchip-armv8-*-rootfs.tar.gz
+        rm -rf bin/targets/rockchip/armv8/openwrt-rockchip-armv8.manifest
+        rm -rf bin/targets/rockchip/armv8/openwrt-rockchip-armv8-rootfs.tar.gz
         rm -rf bin/targets/rockchip/armv8/config.buildinfo
         rm -rf bin/targets/rockchip/armv8/packages-server.zip
         make checksum
