@@ -68,15 +68,6 @@ git clone --depth=1 https://github.com/rufengsuixing/luci-app-onliner
 # Add ServerChan
 git clone --depth=1 https://github.com/tty228/luci-app-serverchan
 
-# Add luci-app-diskman
-# git clone --depth=1 https://github.com/SuLingGG/luci-app-diskman
-# mkdir parted
-# cp luci-app-diskman/Parted.Makefile parted/Makefile
-
-# Add luci-app-ikoolproxy (godproxy)
-git clone --depth=1 https://github.com/iwrt/luci-app-ikoolproxy.git
-rm -rf ../../customfeeds/luci/applications/luci-app-kodexplorer
-
 # Add luci-app-dockerman
 rm -rf ../../customfeeds/luci/collections/luci-lib-docker
 rm -rf ../../customfeeds/luci/applications/luci-app-docker
@@ -112,11 +103,6 @@ rm -rf ../../customfeeds/luci/applications/aliyundrive-webdav
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/aliyundrive-webdav
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/luci-app-aliyundrive-webdav
 popd
-
-# Add extra wireless drivers
-svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/rtl8812au-ac
-svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/rtl8188eu
-svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/rtl88x2bu
 
 # Add Pandownload
 pushd package/lean
