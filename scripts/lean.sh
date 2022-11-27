@@ -20,14 +20,6 @@ rm -rf ./target/linux/rockchip/armv8/base-files/etc/uci-defaults
 rm -rf package/kernel/mac80211
 svn export https://github.com/coolsnowwolf/lede/trunk/package/kernel/mac80211 package/kernel/mac80211
 rm -rf package/kernel/rtl8821cu
-rm -rf target/linux/generic/backport-6.0
-svn export https://github.com/coolsnowwolf/lede/trunk/target/linux/generic/backport-6.0 target/linux/generic/backport-6.0
-rm -rf target/linux/generic/hack-6.0
-svn export https://github.com/coolsnowwolf/lede/trunk/target/linux/generic/hack-6.0 target/linux/generic/hack-6.0
-rm -rf target/linux/generic/pending-6.0
-svn export https://github.com/coolsnowwolf/lede/trunk/target/linux/generic/pending-6.0 target/linux/generic/pending-6.0
-rm -rf package/lean/shortcut-fe
-svn export https://github.com/coolsnowwolf/lede/trunk/package/lean/shortcut-fe package/lean/shortcut-fe
 
 # alist
 git clone https://github.com/sbwml/luci-app-alist package/alist
