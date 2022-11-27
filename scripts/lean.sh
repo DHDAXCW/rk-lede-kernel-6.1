@@ -16,10 +16,11 @@ sed -i 's,2016,2208,g' feeds/luci/applications/luci-app-cpufreq/root/etc/uci-def
 sed -i 's,1512,1608,g' feeds/luci/applications/luci-app-cpufreq/root/etc/uci-defaults/10-cpufreq
 # 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
 
-rm -rf ./target/linux/rockchip/armv8/base-files/etc/uci-defaults
 rm -rf package/kernel/mac80211
 svn export https://github.com/coolsnowwolf/lede/trunk/package/kernel/mac80211 package/kernel/mac80211
 rm -rf package/kernel/rtl8821cu
+rm -rf package/lean/r8125
+svn export https://github.com/coolsnowwolf/lede/trunk/package/lean/r8125 package/lean/r8125
 
 # alist
 git clone https://github.com/sbwml/luci-app-alist package/alist
