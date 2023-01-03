@@ -16,6 +16,7 @@ friendlyarm_nanopi-r2s=y
 friendlyarm_nanopi-r4s=y
 friendlyarm_nanopi-r4se=y
 friendlyarm_nanopi-r5s=y
+friendlyarm_nanopi-r5c=y
 firefly_station-p2=y
 ```
 
