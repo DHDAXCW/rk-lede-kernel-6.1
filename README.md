@@ -15,10 +15,12 @@ friendlyarm_nanopi-r2c=y
 friendlyarm_nanopi-r2s=y
 friendlyarm_nanopi-r4s=y
 friendlyarm_nanopi-r4se=y
-friendlyarm_nanopi-r5s=y
-friendlyarm_nanopi-r5c=y
+friendlyarm_nanopi-r5s=y 内测结束
+friendlyarm_nanopi-r5c=y 内测结束
 firefly_station-p2=y
 ```
+
+r5c r5s  https://github.com/DHDAXCW/NanoPi-R5S-R5C
 
 ### 固件格式
 - **ext4:** 固件文件名中带有 ext4 字样的文件为搭载 ext4 文件系统固件ext4 格式的固件更适合熟悉 Linux 系统的用户使用，在 Linux 下可以比较方便地调整 ext4 分区的大小;
